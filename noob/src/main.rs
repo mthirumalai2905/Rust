@@ -48,8 +48,16 @@ fn main() {
 
 
     //Inputs in Rust
-    print!("Hello, World");
-    let mut input = String::new();
-    io::stdin().read_line(&mut input).expect("failed to read line");
-    println!("{}", input);
+    // print!("Hello, World");
+    // let mut input = String::new();
+    // io::stdin().read_line(&mut input).expect("failed to read line");
+    // println!("{}", input);
+
+
+    //Arithmetic and type casting
+
+    let x: u8 = 9; // 0 - 255
+    let y: i8 = 10;// -128 - 127
+    
+
 }
