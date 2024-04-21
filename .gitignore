@@ -1,3 +1,4 @@
 noob/target/
 noob/Cargo.lock
 noob/Cargo.toml
+.vscode/
