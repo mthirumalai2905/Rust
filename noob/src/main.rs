@@ -56,8 +56,17 @@ fn main() {
 
     //Arithmetic and type casting
 
-    let x: u8 = 9; // 0 - 255
-    let y: i8 = 10;// -128 - 127
-    
+    // let x: u8 = 9; // 0 - 255
+    // let y: i8 = 10;// -128 - 127
+
+    // let z = x + y;
+    // println!("{}", z);
+
+    let x = 15;
+    let y = 15;
+
+    let z =  x + y;
+    println!("{}", z);
+
 
 }
