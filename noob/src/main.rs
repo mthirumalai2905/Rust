@@ -1,3 +1,6 @@
+use std::io;
+
+
 fn main() {
     //variables
     let  x   = 4;
@@ -42,4 +45,11 @@ fn main() {
 
     println!("{}", arr[4]);
     println!("{}, {}, {}, {}", arr[4], arr[3], arr[2], arr[1]);
+
+
+    //Inputs in Rust
+    print!("Hello, World");
+    let mut input = String::new();
+    io::stdin().read_line(&mut input).expect("failed to read line");
+    println!("{}", input);
 }
