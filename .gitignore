@@ -2,3 +2,6 @@ noob/target/
 noob/Cargo.lock
 noob/Cargo.toml
 .vscode/
+problems/target
+problems/Cargo.lock
+problems/Cargo.toml
